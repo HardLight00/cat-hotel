@@ -1,0 +1,873 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mount landing page render page 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "back": [Function],
+        "block": [Function],
+        "createHref": [Function],
+        "forward": [Function],
+        "go": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "default",
+          "pathname": "/",
+          "search": "",
+          "state": null,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Landing>
+      <Memo(Header)>
+        <styled.div
+          data-cy="header"
+        >
+          <div
+            className="sc-AxheI tqTZr"
+            data-cy="header"
+          >
+            <BrandName>
+              <styled.div>
+                <div
+                  className="sc-AxjAm cPmBBo"
+                >
+                  <styled.span>
+                    <span
+                      className="sc-AxirZ LVXXw"
+                    >
+                      Cat
+                    </span>
+                  </styled.span>
+                  <styled.span>
+                    <span
+                      className="sc-AxiKw dJVMUY"
+                    >
+                      Seasons
+                    </span>
+                  </styled.span>
+                  <styled.span>
+                    <span
+                      className="sc-AxhCb hViCCr"
+                    >
+                      Отель для кошек
+                    </span>
+                  </styled.span>
+                </div>
+              </styled.div>
+            </BrandName>
+            <Memo(NavItems)>
+              <styled.div
+                data-cy="navbar"
+              >
+                <div
+                  className="sc-Axmtr kFqAXO"
+                  data-cy="navbar"
+                >
+                  <styled.a
+                    key="О нас"
+                  >
+                    <a
+                      className="sc-AxmLO fkwKNh"
+                    >
+                      О нас
+                    </a>
+                  </styled.a>
+                  <styled.a
+                    key="Как работаем"
+                  >
+                    <a
+                      className="sc-AxmLO fkwKNh"
+                    >
+                      Как работаем
+                    </a>
+                  </styled.a>
+                  <styled.a
+                    key="Галерея"
+                  >
+                    <a
+                      className="sc-AxmLO fkwKNh"
+                    >
+                      Галерея
+                    </a>
+                  </styled.a>
+                  <styled.a
+                    key="Q & A"
+                  >
+                    <a
+                      className="sc-AxmLO fkwKNh"
+                    >
+                      Q & A
+                    </a>
+                  </styled.a>
+                  <styled.a
+                    key="Контакты"
+                  >
+                    <a
+                      className="sc-AxmLO fkwKNh"
+                    >
+                      Контакты
+                    </a>
+                  </styled.a>
+                </div>
+              </styled.div>
+            </Memo(NavItems)>
+            <Memo(Button)>
+              <styled.button
+                disable={false}
+                onClick={[Function]}
+                shape="rounded"
+                size="s"
+                state="normal"
+                variant="normal"
+                width="auto"
+              >
+                <button
+                  className="sc-AxgMl OZeEQ"
+                  onClick={[Function]}
+                  shape="rounded"
+                  size="s"
+                  width="auto"
+                >
+                  Позвонить
+                </button>
+              </styled.button>
+            </Memo(Button)>
+          </div>
+        </styled.div>
+      </Memo(Header)>
+      <MainInfo>
+        <styled.div>
+          <div
+            className="sc-fznZeY fmSxai"
+          >
+            <styled.div>
+              <div
+                className="sc-fzokOt jpvHSC"
+              >
+                <styled.h1>
+                  <h1
+                    className="sc-fzqBZW khNXky"
+                  >
+                    Отель для кошек в Иннополисе
+                  </h1>
+                </styled.h1>
+                <styled.div>
+                  <div
+                    className="sc-fzqNJr glenOJ"
+                  >
+                    Мы возьмем вашего котика в гости от 1 дня до 2 месяцев
+                  </div>
+                </styled.div>
+                <Memo(Button)>
+                  <styled.button
+                    disable={false}
+                    onClick={[Function]}
+                    shape="rounded"
+                    size="s"
+                    state="normal"
+                    variant="normal"
+                    width="auto"
+                  >
+                    <button
+                      className="sc-AxgMl OZeEQ"
+                      onClick={[Function]}
+                      shape="rounded"
+                      size="s"
+                      width="auto"
+                    >
+                      <Link
+                        data-cy="order-button"
+                        style={
+                          Object {
+                            "color": "#EC8105",
+                            "textDecoration": "none",
+                          }
+                        }
+                        to="/cat-seasons/order"
+                      >
+                        <LinkAnchor
+                          data-cy="order-button"
+                          href="/cat-seasons/order"
+                          navigate={[Function]}
+                          style={
+                            Object {
+                              "color": "#EC8105",
+                              "textDecoration": "none",
+                            }
+                          }
+                        >
+                          <a
+                            data-cy="order-button"
+                            href="/cat-seasons/order"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "color": "#EC8105",
+                                "textDecoration": "none",
+                              }
+                            }
+                          >
+                            Заказать номер
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </button>
+                  </styled.button>
+                </Memo(Button)>
+              </div>
+            </styled.div>
+            <img
+              alt="main-cat-info"
+              height="460px"
+              src="image-pass"
+              style={
+                Object {
+                  "position": "relative",
+                  "right": "-10%",
+                  "top": "54px",
+                }
+              }
+            />
+          </div>
+        </styled.div>
+      </MainInfo>
+      <Connect(HowWeWork)>
+        <HowWeWork
+          fetchSteps={[Function]}
+        >
+          <styled.div
+            data-cy="how-we-work"
+          >
+            <div
+              className="sc-fzpjYC fOwoOu"
+              data-cy="how-we-work"
+            >
+              <Loader>
+                <styled.span>
+                  <span
+                    className="sc-fzoyAV gutQZW"
+                  >
+                    <styled.div>
+                      <div
+                        className="sc-fzoLag jHUyRm"
+                      >
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                      </div>
+                    </styled.div>
+                  </span>
+                </styled.span>
+              </Loader>
+            </div>
+          </styled.div>
+        </HowWeWork>
+      </Connect(HowWeWork)>
+      <Connect(FeedbackBlock)>
+        <FeedbackBlock
+          fetchFeedbacks={[Function]}
+        >
+          <styled.div>
+            <div
+              className="sc-fzqNqU ixeigo"
+            >
+              <Loader>
+                <styled.span>
+                  <span
+                    className="sc-fzoyAV gutQZW"
+                  >
+                    <styled.div>
+                      <div
+                        className="sc-fzoLag jHUyRm"
+                      >
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                      </div>
+                    </styled.div>
+                  </span>
+                </styled.span>
+              </Loader>
+            </div>
+          </styled.div>
+        </FeedbackBlock>
+      </Connect(FeedbackBlock)>
+      <Footer>
+        <styled.div
+          data-cy="footer"
+        >
+          <div
+            className="sc-fzoLsD kuCrQ"
+            data-cy="footer"
+          >
+            <styled.div>
+              <div
+                className="sc-fzpans cxwOC"
+              >
+                <BrandName>
+                  <styled.div>
+                    <div
+                      className="sc-AxjAm cPmBBo"
+                    >
+                      <styled.span>
+                        <span
+                          className="sc-AxirZ LVXXw"
+                        >
+                          Cat
+                        </span>
+                      </styled.span>
+                      <styled.span>
+                        <span
+                          className="sc-AxiKw dJVMUY"
+                        >
+                          Seasons
+                        </span>
+                      </styled.span>
+                      <styled.span>
+                        <span
+                          className="sc-AxhCb hViCCr"
+                        >
+                          Отель для кошек
+                        </span>
+                      </styled.span>
+                    </div>
+                  </styled.div>
+                </BrandName>
+                <Link>
+                  <styled.a>
+                    <a
+                      className="sc-fzozJi bBKIwI"
+                    >
+                      Политика конфиденциальности
+                    </a>
+                  </styled.a>
+                </Link>
+                <Link>
+                  <styled.a>
+                    <a
+                      className="sc-fzozJi bBKIwI"
+                    >
+                      Соглашение на обработку персональных данных
+                    </a>
+                  </styled.a>
+                </Link>
+              </div>
+            </styled.div>
+            <styled.div>
+              <div
+                className="sc-fznyAO dhmJej"
+              >
+                <styled.h3>
+                  <h3
+                    className="sc-fznKkj ZLyWz"
+                  >
+                    +7(964)-248-66-60
+                  </h3>
+                </styled.h3>
+                <Memo(Button)>
+                  <styled.button
+                    disable={false}
+                    onClick={[Function]}
+                    shape="rounded"
+                    size="s"
+                    state="normal"
+                    variant="normal"
+                    width="auto"
+                  >
+                    <button
+                      className="sc-AxgMl OZeEQ"
+                      onClick={[Function]}
+                      shape="rounded"
+                      size="s"
+                      width="auto"
+                    >
+                      Позвонить
+                    </button>
+                  </styled.button>
+                </Memo(Button)>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+      </Footer>
+    </Landing>
+  </Router>
+</Provider>
+`;
+
+exports[`mount landing page render page 2`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "back": [Function],
+        "block": [Function],
+        "createHref": [Function],
+        "forward": [Function],
+        "go": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "default",
+          "pathname": "/",
+          "search": "",
+          "state": null,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Landing>
+      <Memo(Header)>
+        <styled.div
+          data-cy="header"
+        >
+          <div
+            className="sc-AxheI tqTZr"
+            data-cy="header"
+          >
+            <BrandName>
+              <styled.div>
+                <div
+                  className="sc-AxjAm cPmBBo"
+                >
+                  <styled.span>
+                    <span
+                      className="sc-AxirZ LVXXw"
+                    >
+                      Cat
+                    </span>
+                  </styled.span>
+                  <styled.span>
+                    <span
+                      className="sc-AxiKw dJVMUY"
+                    >
+                      Seasons
+                    </span>
+                  </styled.span>
+                  <styled.span>
+                    <span
+                      className="sc-AxhCb hViCCr"
+                    >
+                      Отель для кошек
+                    </span>
+                  </styled.span>
+                </div>
+              </styled.div>
+            </BrandName>
+            <Memo(NavItems)>
+              <styled.div
+                data-cy="navbar"
+              >
+                <div
+                  className="sc-Axmtr kFqAXO"
+                  data-cy="navbar"
+                >
+                  <styled.a
+                    key="О нас"
+                  >
+                    <a
+                      className="sc-AxmLO fkwKNh"
+                    >
+                      О нас
+                    </a>
+                  </styled.a>
+                  <styled.a
+                    key="Как работаем"
+                  >
+                    <a
+                      className="sc-AxmLO fkwKNh"
+                    >
+                      Как работаем
+                    </a>
+                  </styled.a>
+                  <styled.a
+                    key="Галерея"
+                  >
+                    <a
+                      className="sc-AxmLO fkwKNh"
+                    >
+                      Галерея
+                    </a>
+                  </styled.a>
+                  <styled.a
+                    key="Q & A"
+                  >
+                    <a
+                      className="sc-AxmLO fkwKNh"
+                    >
+                      Q & A
+                    </a>
+                  </styled.a>
+                  <styled.a
+                    key="Контакты"
+                  >
+                    <a
+                      className="sc-AxmLO fkwKNh"
+                    >
+                      Контакты
+                    </a>
+                  </styled.a>
+                </div>
+              </styled.div>
+            </Memo(NavItems)>
+            <Memo(Button)>
+              <styled.button
+                disable={false}
+                onClick={[Function]}
+                shape="rounded"
+                size="s"
+                state="normal"
+                variant="normal"
+                width="auto"
+              >
+                <button
+                  className="sc-AxgMl OZeEQ"
+                  onClick={[Function]}
+                  shape="rounded"
+                  size="s"
+                  width="auto"
+                >
+                  Позвонить
+                </button>
+              </styled.button>
+            </Memo(Button)>
+          </div>
+        </styled.div>
+      </Memo(Header)>
+      <MainInfo>
+        <styled.div>
+          <div
+            className="sc-fznZeY fmSxai"
+          >
+            <styled.div>
+              <div
+                className="sc-fzokOt jpvHSC"
+              >
+                <styled.h1>
+                  <h1
+                    className="sc-fzqBZW khNXky"
+                  >
+                    Отель для кошек в Иннополисе
+                  </h1>
+                </styled.h1>
+                <styled.div>
+                  <div
+                    className="sc-fzqNJr glenOJ"
+                  >
+                    Мы возьмем вашего котика в гости от 1 дня до 2 месяцев
+                  </div>
+                </styled.div>
+                <Memo(Button)>
+                  <styled.button
+                    disable={false}
+                    onClick={[Function]}
+                    shape="rounded"
+                    size="s"
+                    state="normal"
+                    variant="normal"
+                    width="auto"
+                  >
+                    <button
+                      className="sc-AxgMl OZeEQ"
+                      onClick={[Function]}
+                      shape="rounded"
+                      size="s"
+                      width="auto"
+                    >
+                      <Link
+                        data-cy="order-button"
+                        style={
+                          Object {
+                            "color": "#EC8105",
+                            "textDecoration": "none",
+                          }
+                        }
+                        to="/cat-seasons/order"
+                      >
+                        <LinkAnchor
+                          data-cy="order-button"
+                          href="/cat-seasons/order"
+                          navigate={[Function]}
+                          style={
+                            Object {
+                              "color": "#EC8105",
+                              "textDecoration": "none",
+                            }
+                          }
+                        >
+                          <a
+                            data-cy="order-button"
+                            href="/cat-seasons/order"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "color": "#EC8105",
+                                "textDecoration": "none",
+                              }
+                            }
+                          >
+                            Заказать номер
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </button>
+                  </styled.button>
+                </Memo(Button)>
+              </div>
+            </styled.div>
+            <img
+              alt="main-cat-info"
+              height="460px"
+              src="image-pass"
+              style={
+                Object {
+                  "position": "relative",
+                  "right": "-10%",
+                  "top": "54px",
+                }
+              }
+            />
+          </div>
+        </styled.div>
+      </MainInfo>
+      <Connect(HowWeWork)>
+        <HowWeWork
+          fetchSteps={[Function]}
+        >
+          <styled.div
+            data-cy="how-we-work"
+          >
+            <div
+              className="sc-fzpjYC fOwoOu"
+              data-cy="how-we-work"
+            >
+              <Loader>
+                <styled.span>
+                  <span
+                    className="sc-fzoyAV gutQZW"
+                  >
+                    <styled.div>
+                      <div
+                        className="sc-fzoLag jHUyRm"
+                      >
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                      </div>
+                    </styled.div>
+                  </span>
+                </styled.span>
+              </Loader>
+            </div>
+          </styled.div>
+        </HowWeWork>
+      </Connect(HowWeWork)>
+      <Connect(FeedbackBlock)>
+        <FeedbackBlock
+          fetchFeedbacks={[Function]}
+        >
+          <styled.div>
+            <div
+              className="sc-fzqNqU ixeigo"
+            >
+              <Loader>
+                <styled.span>
+                  <span
+                    className="sc-fzoyAV gutQZW"
+                  >
+                    <styled.div>
+                      <div
+                        className="sc-fzoLag jHUyRm"
+                      >
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                        <styled.div>
+                          <div
+                            className="sc-fzoXzr jwfJPm"
+                          />
+                        </styled.div>
+                      </div>
+                    </styled.div>
+                  </span>
+                </styled.span>
+              </Loader>
+            </div>
+          </styled.div>
+        </FeedbackBlock>
+      </Connect(FeedbackBlock)>
+      <Footer>
+        <styled.div
+          data-cy="footer"
+        >
+          <div
+            className="sc-fzoLsD kuCrQ"
+            data-cy="footer"
+          >
+            <styled.div>
+              <div
+                className="sc-fzpans cxwOC"
+              >
+                <BrandName>
+                  <styled.div>
+                    <div
+                      className="sc-AxjAm cPmBBo"
+                    >
+                      <styled.span>
+                        <span
+                          className="sc-AxirZ LVXXw"
+                        >
+                          Cat
+                        </span>
+                      </styled.span>
+                      <styled.span>
+                        <span
+                          className="sc-AxiKw dJVMUY"
+                        >
+                          Seasons
+                        </span>
+                      </styled.span>
+                      <styled.span>
+                        <span
+                          className="sc-AxhCb hViCCr"
+                        >
+                          Отель для кошек
+                        </span>
+                      </styled.span>
+                    </div>
+                  </styled.div>
+                </BrandName>
+                <Link>
+                  <styled.a>
+                    <a
+                      className="sc-fzozJi bBKIwI"
+                    >
+                      Политика конфиденциальности
+                    </a>
+                  </styled.a>
+                </Link>
+                <Link>
+                  <styled.a>
+                    <a
+                      className="sc-fzozJi bBKIwI"
+                    >
+                      Соглашение на обработку персональных данных
+                    </a>
+                  </styled.a>
+                </Link>
+              </div>
+            </styled.div>
+            <styled.div>
+              <div
+                className="sc-fznyAO dhmJej"
+              >
+                <styled.h3>
+                  <h3
+                    className="sc-fznKkj ZLyWz"
+                  >
+                    +7(964)-248-66-60
+                  </h3>
+                </styled.h3>
+                <Memo(Button)>
+                  <styled.button
+                    disable={false}
+                    onClick={[Function]}
+                    shape="rounded"
+                    size="s"
+                    state="normal"
+                    variant="normal"
+                    width="auto"
+                  >
+                    <button
+                      className="sc-AxgMl OZeEQ"
+                      onClick={[Function]}
+                      shape="rounded"
+                      size="s"
+                      width="auto"
+                    >
+                      Позвонить
+                    </button>
+                  </styled.button>
+                </Memo(Button)>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+      </Footer>
+    </Landing>
+  </Router>
+</Provider>
+`;

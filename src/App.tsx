@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from 'react-redux';
+import { applyMiddleware, createStore } from 'redux';
+import thunk from 'redux-thunk';
+import { Route, Switch } from 'react-router';
+import { Router } from 'react-router-dom';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import { createBrowserHistory } from 'history';
+// @ts-ignore
+import { getNavigations } from '@ijl/cli';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { GlobalStyle } from '@/assests/global-styles';
+import { reducers } from '@/store';
+import { CatProfile, Landing, Order } from '@/pages';
 
-export default App;
+
+const history = createBrowserHistory();
+
+export default () => (
+  <Provider store={createStore(reducers, composeWithDevTools(applyMiddleware(thunk)))}>
+    <GlobalStyle/>
+    <Router history={history}>
+      <Switch>
+        <Route path={getNavigations()['cat-seasons']} component={Landing} exact/>
+        <Route path={getNavigations()['cat-seasons/cats'] + '/:id'} component={CatProfile}/>
+        <Route path={getNavigations()['cat-seasons/order']} component={Order}/>
+      </Switch>
+    </Router>
+  </Provider>
+)
